@@ -1,0 +1,19 @@
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.8em;
+}
+ul li:before {
+	content: "🦀";
+	position: absolute;
+	left: 0;
+}
+
+.colored {
+	background-color: #d3d2f0;
+}
+
+.complement {
+	background-color: #b3f0f8;
+}
