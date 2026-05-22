@@ -4,7 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
-    <title>Climate Risk Samples</title>
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Astro v5.13.2" />
+    <title>Annie Preston Portfolio</title>
     <!---
     <link
       rel="canonical"
@@ -90,18 +95,87 @@
       }
     </style>
   </head>
+
   <body>
-    <header >
-      <div class="collapse text-bg-light" id="navbarHeader">
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
         <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+            </div>
+          </div>
         </div>
       </div>
     </header>
-    <main>
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container mt-4">
+          <h2 class="jumbotron-heading">Climate Risk Visualization Samples</h2>
+          <p class="lead text-muted">Work performed for ClimateCheck</p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4 bg-dark text-white box-shadow">
+                <div class="card-body">
+                  <img class="img-fluid mb-2" src="./images/cc-work-samples/portfolio-sample.png">
+                  <p class="card-text">Sample risk report for a portfolio of properties (by location)</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-4 bg-dark text-white box-shadow">
+                <div class="card-body">
+                  <img class="img-fluid mb-2" src="./images/cc-work-samples/redacted_2023_RCPs.png">
+                  <p class="card-text">Sample risk report for a portfolio of properties (by scenario)</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card mb-4 bg-dark text-white box-shadow">
+                <div class="card-body">
+                  <img class="img-fluid mb-2" src="./images/cc-work-samples/heat.png">
+                  <p class="card-text">Communicating extreme heat risk for a location</p>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-md-6">
+              <div class="card mb-4 bg-dark text-white box-shadow">
+                <div class="card-body">
+                  <img class="img-fluid mb-2" src="./images/cc-work-samples/Dallas_TX_scoreBar_flood.png">
+                  <p class="card-text">Communicating flood risk exposure for a community</p>
+                </div>
+              </div>
+            </div>
+
+
     </main>
-    <script
-      src="../assets/dist/js/bootstrap.bundle.min.js"
-      class="astro-vvvwv3sm"
-    ></script>
+
+    <footer class="text-muted">
+      <div class="container">
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
   </body>
 </html>
